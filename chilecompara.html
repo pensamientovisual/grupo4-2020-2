@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/chileLow.js"></script>
+        <script type="text/javascript" src="mapas.js"></script>
+        <link href="mapa.css" rel="stylesheet"/>
+        <script type="text/javascript">
+        
+			AmCharts.makeChart("map",{
+					"type": "map",
+					"pathToImages": "http://www.amcharts.com/lib/3/images/",
+					"addClassNames": true,
+					"fontSize": 15,
+					"color": "#000000",
+					"projection": "mercator",
+					"backgroundAlpha": 1,
+					"backgroundColor": "rgba(215,214,214,1)",
+					"dataProvider": {
+						"map": "chileLow",
+						"getAreasFromMap": true,
+						"areas": [
+							{
+                                "id": "CL-AI",
+                                "title": "Aysén <br/> Región: XI <br/>Población: 103.158 <br/> Tamaño: 108.494,4 km<sup>2</sup>",
+                                "color": "rgba(5,47,83,1)"
+							},
+							{
+								"id": "CL-MA",
+								"title": "Magallanes y Antártica Chilena",
+								"color": "rgba(0,0,0,1)"
+							},
+							{
+								"id": "CL-TA",
+								"title": "Tarapacá <br/> Región: I <br/>Población: 330.558 <br/> Tamaño: 42.225,8 km<sup>2</sup>",
+								"color": "rgba(198,89,74,1)"
+							},
+							{
+								"id": "CL-AN",
+								"title": "Antofagasta",
+								"color": "rgba(255,99,125,1)"
+							},
+							{
+								"id": "CL-AT",
+								"title": "Atacama",
+								"color": "rgba(255,183,178,1)"
+							},
+							{
+								"id": "CL-CO",
+								"title": "Coquimbo",
+								"color": "rgba(255,218,193,1)"
+							},
+							{
+								"id": "CL-RM",
+								"title": "Región Metropolitana de Santiago",
+								"color": "rgba(246,175,79,1)"
+							},
+							{
+								"id": "CL-VS",
+								"title": "Valparaíso",
+								"color": "rgba(254,253,151,1)"
+							},
+							{
+								"id": "CL-AR",
+								"title": "Araucanía",
+								"color": "rgba(45,87,44,1)"
+							},
+							{
+								"id": "CL-BI",
+								"title": "Bíobío",
+								"color": "rgba(134,137,93,1)"
+							},
+							{
+								"id": "CL-LI",
+								"title": "Libertador General Bernardo O'Higgins",
+								"color": "rgba(177,109,5,1)"
+							},
+							{
+								"id": "CL-LL",
+								"title": "Los Lagos",
+								"color": "rgba(6,102,173,1)"
+							},
+							{
+								"id": "CL-ML",
+								"title": "Maule",
+								"color": "rgba(75,48,7,1)"
+							},
+							{
+								"id": "CL-AP",
+								"title": "Arica y Parinacota",
+								"color": "rgba(116,38,38,1)"
+							},
+							{
+								"id": "CL-LR",
+								"title": "Los Ríos",
+								"color": "rgba(9,153,177,1)"
+							}
+						]
+					},
+					"balloon": {
+						"horizontalPadding": 15,
+						"borderAlpha": 0,
+						"borderThickness": 1,
+						"verticalPadding": 15
+					},
+					"areasSettings": {
+						"color": "rgba(129,129,129,1)",
+						"outlineColor": "rgba(182,182,182,1)",
+						"rollOverOutlineColor": "rgba(182,182,182,1)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true,
+						"unlistedAreasAlpha": 0,
+						"unlistedAreasOutlineAlpha": 0
+					},
+					"imagesSettings": {
+						"alpha": 1,
+						"color": "rgba(129,129,129,1)",
+						"outlineAlpha": 0,
+						"rollOverOutlineAlpha": 0,
+						"outlineColor": "rgba(182,182,182,1)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true
+					},
+					"linesSettings": {
+						"color": "rgba(129,129,129,1)",
+						"selectable": true,
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20
+					}
+					
+                });
+        </script>
+        </head>
+        <body style="margin: 0;background-color: rgba(182,182,182,1);">
+            <div id="map" style="width: 100%; height: 772px;"></div>
+            <div id="CL-AP"></div>
+            
+            <button id="b-CL-AP">
+                <path d="M 575.98 21.14 L 573.83 21.14L572.44 22.53L572.16 24.2L569.94 24.48L567.71 22.81 L 563.81 22.81 L 559.36 25.87 L 557.07 25.98L557.07 25.98L556.11 16.79L556.65 13.86L555.32 12.53L559.2 12.12L561.68 11.05 L 564.29 7.13 L 563.22 3.62L563.44 2.61 L 563.72 2.18 L 565.58 2.35 L 568.2 0 L 568.38 1.89 L 570.65 4.34 L 571.17 7.04 L 574.29 7.92 L 573.19 9.58 L 574.02 10.74 L 574.98 14.54 L 574.96 17.15 L 576.27 20.5 z" stroke="green" stroke-width="3" fill="none"/>
+                <p id= "texto">chao</p>
+            </button> 
+            <svg height="400" width="450">
+            <path id= "hola" d="M 575.98 21.14 L 573.83 21.14L572.44 22.53L572.16 24.2L569.94 24.48L567.71 22.81 L 563.81 22.81 L 559.36 25.87 L 557.07 25.98L557.07 25.98L556.11 16.79L556.65 13.86L555.32 12.53L559.2 12.12L561.68 11.05 L 564.29 7.13 L 563.22 3.62L563.44 2.61 L 563.72 2.18 L 565.58 2.35 L 568.2 0 L 568.38 1.89 L 570.65 4.34 L 571.17 7.04 L 574.29 7.92 L 573.19 9.58 L 574.02 10.74 L 574.98 14.54 L 574.96 17.15 L 576.27 20.5 z" stroke="green" stroke-width="3" fill="none"/>
+            </svg>
+            
+            
+        </body>
+</html>
