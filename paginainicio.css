@@ -32,3 +32,155 @@
 #lista{
     text-align: left;
 }
+#fondo2{
+    background:#c3c3c3;
+}
+/*TARAPACÁ*/
+#todotarapaca{
+    position: relative;
+    left: 130px;
+}
+#tarapaca{
+    text-align: center;
+}
+#linea{
+    position: relative;
+    left: 100px;
+    top: 110px;
+}
+#basicam{
+    position: absolute;
+    left: 150px;
+    font-size: 12;
+}
+#mediam{
+    position: absolute;
+    left: 310px;
+    font-size: 12px;
+}
+#tecnicom{
+    position: absolute;
+    left: 530px;
+    font-size: 12;
+}
+#fotosm{
+    position: absolute;
+    top: 80px;
+}
+
+#mujeres{
+    position: absolute;
+}
+#ingresom{
+    position: absolute;
+    left: 650px;
+    font-size: 12;
+}
+#um{
+    position: absolute;
+    left: 820px;
+    font-size: 12;
+}
+#fotosh{
+    position: absolute;
+    top: 200px;
+}
+#basicah{
+    position: absolute;
+    left:290px;
+    font-size: 12;
+}
+#mediah{
+    position: absolute;
+    left: 550px;
+    font-size: 12px;
+}
+#tecnicoh{
+    position: absolute;
+    left: 900px;
+    font-size: 12;
+}
+#uh{
+    position: absolute;
+    left: 1050px;
+    font-size: 12;
+}
+#hombres{
+    position: absolute;
+}
+
+
+/*ARAUCANIA*/
+#todoaraucania{
+    position: relative;
+    top: 250px;
+    left: 130px;
+}
+#araucania{
+    text-align: center;
+}
+#lineaara{
+    position: relative;
+    left: 100px;
+    top: 110px;
+}
+#basicamara{
+    position: absolute;
+    left: 150px;
+    font-size: 12;
+}
+#mediamara{
+    position: absolute;
+    left: 310px;
+    font-size: 12px;
+}
+#tecnicomara{
+    position: absolute;
+    left: 530px;
+    font-size: 12;
+}
+#fotosmara{
+    position: absolute;
+    top: 80px;
+}
+
+#mujeresara{
+    position: absolute;
+}
+#ingresomara{
+    position: absolute;
+    left: 650px;
+    font-size: 12;
+}
+#umara{
+    position: absolute;
+    left: 820px;
+    font-size: 12;
+}
+#fotoshara{
+    position: absolute;
+    top: 200px;
+}
+#basicahara{
+    position: absolute;
+    left:290px;
+    font-size: 12;
+}
+#mediahara{
+    position: absolute;
+    left: 550px;
+    font-size: 12px;
+}
+#tecnicohara{
+    position: absolute;
+    left: 900px;
+    font-size: 12;
+}
+#uhara{
+    position: absolute;
+    left: 1050px;
+    font-size: 12;
+}
+#hombresara{
+    position: absolute;
+}
