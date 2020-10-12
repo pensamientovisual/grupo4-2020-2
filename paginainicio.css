@@ -36,10 +36,11 @@
     background:#c3c3c3;
 }
 /*TARAPACÁ*/
-#todotarapaca{
+/* #todotarapaca{
     position: relative;
-    left: 130px;
-}
+    left: 10px;
+    top: 0px;
+} */
 #tarapaca{
     text-align: center;
 }
@@ -112,9 +113,9 @@
 
 /*ARAUCANIA*/
 #todoaraucania{
-    position: relative;
-    top: 250px;
-    left: 130px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 #araucania{
     text-align: center;

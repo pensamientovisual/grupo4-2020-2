@@ -1,10 +1,14 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="paginainicio.css" rel="stylesheet"/>
     <link href="estilo.css" rel="stylesheet"/>
     <!-- <link href="paginainicio.css" rel="stylesheet"/> -->
     <script type="text/javascript" src="jquery-3.5.1.js"></script>
     <script type = "text/javascript" src = "aplicacion.js"></script>
+    <script type="text/javascript" src="ingreso.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
          
     <title>Chile compara</title>
 
@@ -513,8 +517,78 @@
                 </g>  
                 </svg>
                 <div id="ingre9" class="escondidi">
-                    <img src="graficoreg9.png" width="200px" >
-                    <p > ejo</p>
+                    <div id="tarapaca">
+                        TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                    </div>
+                    <div id="fotosm">
+                        <p id= "mujeres">
+                            MUJERES
+                        </p>
+                        <div id= "mediam">
+                            <img src="gorrorojo.JPG" height="30">
+                            <p>359.316</p>
+                        </div>
+                        <div id = "basicam">
+                            <img src="abcrojo.JPG" height="35">
+                            <p>216.845</p>
+                        </div>
+                        <div id="tecnicom">
+                            <img src="tecnicorojo.JPG" height="35">
+                            <p>520.812</p>
+                        </div>
+                        <div id="ingresom">
+                            <img src="ingresopromedio.JPG" height="35">
+                            <p>625.448</p>
+                        </div>
+                        <div id= "um">
+                            <img src="unegro.JPG" height="35">
+                            <p>774.327</p>
+                        </div>
+                    </div>
+                    <div id="linea">
+                        <svg width="100%" height="40">
+                            <g class="eje">
+                        </svg>
+                        <style>
+                            .eje {
+                            fill: none;
+                            }
+                        </style>
+                        <script>
+                            var scale = d3.scaleLinear()
+                                .domain([200000, 1000000])
+                                .range([0, 1000]);
+                            var axis = d3.axisBottom(scale)
+                            d3.select('.eje')  
+                                .attr("transform", "translate(40, 0)")
+                                .call(axis);  
+                        </script>
+                    </div>
+                    <div id="fotosh">
+                        <p id= "hombres">
+                            HOMBRES
+                        </p>
+                        <div id="basicah">
+                            <img src="abcrojo.JPG" height="35">
+                            <p>352.465</p>
+                        </div>
+                        <div id="mediah">
+                            <img src="gorrorojo.JPG" height="30">
+                            <p>546.924</p>
+                        </div>
+                        <div id="ingresom">
+                            <img src="ingresopromedio.JPG" height="35">
+                            <p>625.448</p>
+                        </div>
+                        <div id="tecnicoh">
+                            <img src="tecniconegro.JPG" height="35">
+                            <p>803.793</p>
+                        </div>
+                        <div id= "uh">
+                            <img src="unegro.JPG" height="35">
+                            <p>951.564</p>
+                        </div>
+                    </div>
                 </div>
                 <div id="ingre13" class="escondidi">
                     <p > ejereje</p>
@@ -1024,11 +1098,86 @@
                 </g>  
                 </svg>
                 <div id="ingre9_d" class="escondide">
-                    <p > la mati se come los mocos</p>
+                    <p > esto que lees es muy interesante</p>
                 </div>
                 <div id="ingre13_d" class="escondide">
-                    <img src="graficoreg9.png" width="200px" >
-                    <p > poner los datos aca</p>
+                    <!-- ingresos -->
+                    <div id="todoaraucania">
+                        <div id="araucania">
+                            ARAUCANÍA Región: IX<br/>Población: 957.224 Tamaño: 31.842 km<sup>2</sup>
+                        </div>
+                        <div id="fotosmara">
+                            <p id= "mujeresara">
+                                MUJERES
+                            </p>
+                            <div id= "mediamara">
+                                <img src="gorrorojo.JPG" height="30">
+                                <p>359.316</p>
+                            </div>
+                            <div id = "basicamara">
+                                <img src="abcrojo.JPG" height="35">
+                                <p>216.845</p>
+                            </div>
+                            <div id="tecnicomara">
+                                <img src="tecnicorojo.JPG" height="35">
+                                <p>520.812</p>
+                            </div>
+                            <div id="ingresomara">
+                                <img src="ingresopromedio.JPG" height="35">
+                                <p>625.448</p>
+                            </div>
+                            <div id= "umara">
+                                <img src="unegro.JPG" height="35">
+                                <p>774.327</p>
+                            </div>
+                        </div>
+                        <div id="lineaara">
+                            <svg width="100%" height="40">
+                                <g class="eje2">
+                            </svg>
+                            <style>
+                                .eje2 {
+                                fill: none;
+                                }
+                            </style>
+                            <script>
+                                var scale = d3.scaleLinear()
+                                    .domain([200000, 1000000])
+                                    .range([0, 1000]);
+                                var axis = d3.axisBottom(scale)
+                                d3.select('.eje2')  
+                                    .attr("transform", "translate(40, 0)")
+                                    .call(axis);  
+                            </script>
+                        </div>
+                        
+                        <div id="fotoshara">
+                            <p id= "hombresara">
+                                HOMBRES
+                            </p>
+                            <div id="basicahara">
+                                <img src="abcrojo.JPG" height="35">
+                                <p>352.465</p>
+                            </div>
+                            <div id="mediahara">
+                                <img src="gorrorojo.JPG" height="30">
+                                <p>546.924</p>
+                            </div>
+                            <div id="ingresomara">
+                                <img src="ingresopromedio.JPG" height="35">
+                                <p>625.448</p>
+                            </div>
+                            <div id="tecnicohara">
+                                <img src="tecniconegro.JPG" height="35">
+                                <p>803.793</p>
+                            </div>
+                            <div id= "uhara">
+                                <img src="unegro.JPG" height="35">
+                                <p>951.564</p>
+                            </div>
+                        </div>
+            
+                    </div>
                 </div>
             </div>
         </div>

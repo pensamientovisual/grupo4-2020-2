@@ -17,7 +17,7 @@ $(document).ready(function(){
     $("#r9").click(function(){
         if (ingre_9 == true) {
             ingre_9 = false;
-            $(".escondido").hide();
+            $(".escondidi").hide();
             $("#ingre9").show();    
         }
         else {
@@ -42,7 +42,7 @@ $(document).ready(function(){
     $("#r13").click(function(){
         if (r13_i == true) {
             r13_i = false;
-            $(".escondido").hide(); 
+            $(".escondidi").hide(); 
             $("#ingre13").show();  
         }
         else {
