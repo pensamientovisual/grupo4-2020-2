@@ -26,35 +26,35 @@ $(document).ready(function(){
         }
     });
     
-//    var cont_9 = true;
-//    $("#cont9").hide();
-//
-//    $("#r9").click(function(){
-//        if (cont_9 == true) {
-//            cont_9 = false;
-//            $(".escondidi").hide();
-//            $("#cont9").show();    
-//        }
-//        else {
-//            $("#cont9").hide();
-//            cont_9 = true;
-//        }
-//    });
-//
-//    var nubon_1= true;
-//    $("#nubon9").hide();
-//
-//    $("#cont9").click(function(){
-//        if (nubon_1 == true) {
-//            nubon_1 = false;
-//            $(".escondido").hide();
-//            $("#nubon9").show();    
-//        }
-//        else {
-//            $("#nubon9").hide();
-//            nubon_1 = true;
-//        }
-//    });
+    var cont_9 = true;
+    $("#cont9").hide();
+
+   $("#r9").click(function(){
+       if (cont_9 == true) {
+           cont_9 = false;
+           $(".info_9").hide();
+           $("#cont9").show();    
+       }
+       else {
+           $("#cont9").hide();
+           cont_9 = true;
+       }
+   });
+
+   var nubon_1= true;
+   $("#nubon9").hide();
+
+   $("#cont9").click(function(){
+       if (nubon_1 == true) {
+           nubon_1 = false;
+           $(".escondido").hide();
+           $("#nubon9").show();    
+       }
+       else {
+           $("#nubon9").hide();
+           nubon_1 = true;
+       }
+   });
 
 
 
@@ -83,13 +83,13 @@ $(document).ready(function(){
         }
     });
 
-    var cont_13 = true;
-    $("#cont13").hide();
+   // var cont_13 = true;
+   // $("#cont13").hide();
 
     $("#r13").click(function(){
         if (cont_13 == true) {
             cont_13 = false;
-            $(".escondidi").hide();
+            $(".info").hide();
             $("#cont13").show();    
         }
         else {
