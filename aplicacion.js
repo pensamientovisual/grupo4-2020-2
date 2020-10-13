@@ -25,21 +25,38 @@ $(document).ready(function(){
             ingre_9 = true;
         }
     });
+    
+//    var cont_9 = true;
+//    $("#cont9").hide();
+//
+//    $("#r9").click(function(){
+//        if (cont_9 == true) {
+//            cont_9 = false;
+//            $(".escondidi").hide();
+//            $("#cont9").show();    
+//        }
+//        else {
+//            $("#cont9").hide();
+//            cont_9 = true;
+//        }
+//    });
+//
+//    var nubon_1= true;
+//    $("#nubon9").hide();
+//
+//    $("#cont9").click(function(){
+//        if (nubon_1 == true) {
+//            nubon_1 = false;
+//            $(".escondido").hide();
+//            $("#nubon9").show();    
+//        }
+//        else {
+//            $("#nubon9").hide();
+//            nubon_1 = true;
+//        }
+//    });
 
-    // var nubon_1= true;
-    // $("#nubon").hide();
 
-    // $("#ingre9").click(function(){
-    //     if (nubon_1 == true) {
-    //         nubon_1 = false;
-    //         $(".escondidi").hide();
-    //         $("#nubon").show();    
-    //     }
-    //     else {
-    //         $("#nubon").hide();
-    //         nubon_1 = true;
-    //     }
-    // });
 
 // region verfde
     $("#r13").mouseenter(function(){
@@ -65,6 +82,38 @@ $(document).ready(function(){
             r13_i = true;
         }
     });
+
+    var cont_13 = true;
+    $("#cont13").hide();
+
+    $("#r13").click(function(){
+        if (cont_13 == true) {
+            cont_13 = false;
+            $(".escondidi").hide();
+            $("#cont13").show();    
+        }
+        else {
+            $("#cont13").hide();
+            cont_13 = true;
+        }
+    });
+
+    var nubon_13= true;
+    $("#nubon13").hide();
+
+    $("#cont13").click(function(){
+        if (nubon_13 == true) {
+            nubon_13 = false;
+            $(".escondido").hide();
+            $("#nubon13").show();    
+        }
+        else {
+            $("#nubon13").hide();
+            nubon_13 = true;
+        }
+    });
+
+
     // funciones derecha
     // funciones r9
     $("#r9_d").mouseenter(function(){
