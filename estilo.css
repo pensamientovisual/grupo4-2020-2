@@ -30,9 +30,9 @@ html, body{
   
   #izquierda {
     position: relative;
-    top: 100px;
+    top: 50px;
     left: 0px;
-    width: 25%;
+    width: 790;
     height: 600px;
     /* border: 3px solid #73AD21; */
   }
@@ -47,17 +47,17 @@ html, body{
   }
   #derecha{
     position: relative;
-    top: -510px;
-    left: 760px;
-    width: 1000px;
-    height: 1000px;
+    top: -560px;
+    left: 770px;
+    width: 820px;
+    height: 600px;
     /* border: 3px solid #ad4d21; */
   }
   #mapa2 {
     position: absolute;
     margin: 0%;
-    top: -230px;
-    right: -420px;
+    top: -200px;
+    right: -620px;
     width: 1000px;
     height: 1000px;
     /* border: 3px solid #030303; */
@@ -69,24 +69,32 @@ html, body{
     left: 130px;
     width: 600px;
     height: 400px;
-    border: 3px solid #1c17a9;
+    /* border: 3px solid #220ce9; */
   }
 
   .escondide {
     position: absolute;
     top: 155px;
-    right: 400px;
+    right: 200px;
     width: 600px;
     height: 400px;
     /* border: 3px solid #15b3cf; */
   }
   #boton_gas{
     position: absolute;
-    top: 200px;
+    top: 0px;
     right: 100px;
-    
   }
-
+  #boton_ingresos{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+  }
+  .info{
+    position: absolute;
+    top: -300px;
+    right: 100px;
+  }
 /* 
 
 h2 {

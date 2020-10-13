@@ -2,7 +2,7 @@ $(document).ready(function(){
     
 // funciones r9
     $("#r9").mouseenter(function(){
-        $("#hola").text("region 9  poblacion")
+        $("#hola").text("region VI")
         $(this).fadeTo("fast", 0.3)
     });
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
     $("#r9").click(function(){
         if (ingre_9 == true) {
             ingre_9 = false;
-            $(".escondido").hide();
+            $(".escondidi").hide();
             $("#ingre9").show();    
         }
         else {
@@ -26,25 +26,25 @@ $(document).ready(function(){
         }
     });
 
-    var nubon_1= true;
-    $("#nubon").hide();
+    // var nubon_1= true;
+    // $("#nubon").hide();
 
-    $("#ingre9").click(function(){
-        if (nubon_1 == true) {
-            nubon_1 = false;
-            $(".escondido").hide();
-            $("#nubon").show();    
-        }
-        else {
-            $("#nubon").hide();
-            nubon_1 = true;
-        }
-    });
+    // $("#ingre9").click(function(){
+    //     if (nubon_1 == true) {
+    //         nubon_1 = false;
+    //         $(".escondidi").hide();
+    //         $("#nubon").show();    
+    //     }
+    //     else {
+    //         $("#nubon").hide();
+    //         nubon_1 = true;
+    //     }
+    // });
 
 // region verfde
     $("#r13").mouseenter(function(){
         $("#r13").fadeTo("fast", 0.3)
-        $("#hola").text("region color verde  poblacion")
+        $("#hola").text("region 9, Araucania")
     });
     $("#r13").mouseleave(function(){
         $("#r13").fadeTo("fast",1)
@@ -57,7 +57,7 @@ $(document).ready(function(){
     $("#r13").click(function(){
         if (r13_i == true) {
             r13_i = false;
-            $(".escondido").hide(); 
+            $(".escondidi").hide(); 
             $("#ingre13").show();  
         }
         else {
@@ -99,7 +99,7 @@ $(document).ready(function(){
     });
     $("#r13_d").mouseleave(function(){
         $("#r13_d").fadeTo("fast",1)
-        $("#hola2").text("selecciona una region")
+        $("#hola2").text("Selecciona una region")
     });
 
     var r13_d = true;
@@ -116,7 +116,6 @@ $(document).ready(function(){
             r13_d = true;
         }
     });
-<<<<<<< HEAD
     var r13_ing_d = true;
     $("#todoaraucania").hide();
 
@@ -124,6 +123,7 @@ $(document).ready(function(){
         if (r13_ing_d == true) {
             r13_ing_d = false;
             $("#boton_ingresos").hide();
+            $(".info").hide();
             $("#boton_gas").show();
             $("#todoaraucania").show();    
         }
@@ -133,27 +133,55 @@ $(document).ready(function(){
         }
     });
     var r13_gas_d = true;
-    $("#araucaniagas").hide();
+    $("#araucania_gas").hide();
 
     $("#boton_gas").click(function(){
         if (r13_gas_d == true) {
             r13_gas_d = false;
             $("#boton_gas").hide();
+            $(".info").hide();
             $("#boton_ingresos").show();
-            $("#araucaniagas").show();    
+            $("#araucania_gas").show();    
         }
         else {
             $("#araucaniagas").hide();
             r13_gas_d = true;
         }
     });
-    // no actualizada no trabajar antes de descargar
-    $(".regiones").click(function(){
-        if ($(this) == "#r09") {
-            $("#hola").text("region 9")   
+    var r9_ing_d = true;
+    $("#todotarapaca").hide();
+
+    $("#boton_ingresos_9").click(function(){
+        if (r9_ing_d == true) {
+            r9_ing_d = false;
+            $("#boton_ingresos_9").hide();
+            $(".info_9").hide();
+            $("#boton_gas_9").show();
+            $("#todotarapaca").show();    
         }
-        
+        else {
+            $("#todotarapaca").hide();
+            r9_ing_d = true;
+        }
     });
-=======
->>>>>>> 1f8251ccfd170cf1a0f23ea0a3ea4a8d3f28812f
+    var r9_gas_d = true;
+    $("#tarapaca_gas").hide();
+
+    $("#boton_gas_9").click(function(){
+        if (r9_gas_d == true) {
+            r9_gas_d = false;
+            $("#boton_gas_9").hide();
+            $(".info_9").hide();
+            $("#boton_ingresos_9").show();
+            $("#tarapaca_gas").show();    
+        }
+        else {
+            $("#tarapaca_gas").hide();
+            r9_gas_d = true;
+        }
+    });
+    
+
+    // linea divisoria
+
 });
