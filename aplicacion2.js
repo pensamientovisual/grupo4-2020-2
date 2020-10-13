@@ -116,44 +116,4 @@ $(document).ready(function(){
             r13_d = true;
         }
     });
-<<<<<<< HEAD
-    var r13_ing_d = true;
-    $("#todoaraucania").hide();
-
-    $("#boton_ingresos").click(function(){
-        if (r13_ing_d == true) {
-            r13_ing_d = false;
-            $("#boton_ingresos").hide();
-            $("#boton_gas").show();
-            $("#todoaraucania").show();    
-        }
-        else {
-            $("#todoaraucania").hide();
-            r13_ing_d = true;
-        }
-    });
-    var r13_gas_d = true;
-    $("#araucaniagas").hide();
-
-    $("#boton_gas").click(function(){
-        if (r13_gas_d == true) {
-            r13_gas_d = false;
-            $("#boton_gas").hide();
-            $("#boton_ingresos").show();
-            $("#araucaniagas").show();    
-        }
-        else {
-            $("#araucaniagas").hide();
-            r13_gas_d = true;
-        }
-    });
-    // no actualizada no trabajar antes de descargar
-    $(".regiones").click(function(){
-        if ($(this) == "#r09") {
-            $("#hola").text("region 9")   
-        }
-        
-    });
-=======
->>>>>>> 1f8251ccfd170cf1a0f23ea0a3ea4a8d3f28812f
 });

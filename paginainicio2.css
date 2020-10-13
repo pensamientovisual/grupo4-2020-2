@@ -36,38 +36,33 @@
     background:#c3c3c3;
 }
 /*TARAPACÁ*/
-#todotarapaca{
+/* #todotarapaca{
     position: relative;
-}
+    left: 10px;
+    top: 0px;
+} */
 #tarapaca{
-    position: absolute;
     text-align: center;
-    left: 300px;
 }
 #linea{
     position: relative;
     left: 100px;
-    top: 140px;
+    top: 110px;
 }
 #basicam{
     position: absolute;
-    left: 200px;
-    font-size: 10;
+    left: 150px;
+    font-size: 12;
 }
 #mediam{
     position: absolute;
-<<<<<<< HEAD
-    left: 300px;
-    font-size: 10px;
-=======
     left: 200px;
     font-size: 12px;
->>>>>>> 1f8251ccfd170cf1a0f23ea0a3ea4a8d3f28812f
 }
 #tecnicom{
     position: absolute;
-    left: 410px;
-    font-size: 10px;
+    left: 530px;
+    font-size: 12;
 }
 #fotosm{
     position: absolute;
@@ -80,37 +75,37 @@
 }
 #ingresom{
     position: absolute;
-    left: 480px;
-    font-size: 10;
+    left: 650px;
+    font-size: 12;
 }
 #um{
     position: absolute;
-    left: 560px;
-    font-size: 10;
+    left: 820px;
+    font-size: 12;
 }
 #fotosh{
     position: absolute;
-    top: 180px;
+    top: 200px;
 }
 #basicah{
     position: absolute;
     left:290px;
-    font-size: 10;
+    font-size: 12;
 }
 #mediah{
     position: absolute;
-    left: 420px;
-    font-size: 10px;
+    left: 550px;
+    font-size: 12px;
 }
 #tecnicoh{
     position: absolute;
-    left: 600px;
-    font-size: 10;
+    left: 900px;
+    font-size: 12;
 }
 #uh{
     position: absolute;
-    left: 700px;
-    font-size: 10;
+    left: 1050px;
+    font-size: 12;
 }
 #hombres{
     position: absolute;
@@ -119,35 +114,32 @@
 
 /*ARAUCANIA*/
 #todoaraucania{
-    position: relative;
-    top: 250px;
-    
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 #araucania{
-    position: absolute;
     text-align: center;
-    left: 300px;
-    top:15px;
 }
 #lineaara{
     position: relative;
     left: 100px;
-    top: 140px;
+    top: 110px;
 }
 #basicamara{
     position: absolute;
-    left: 180px;
-    font-size: 10;
+    left: 150px;
+    font-size: 12;
 }
 #mediamara{
     position: absolute;
-    left: 250px;
-    font-size: 10px;
+    left: 310px;
+    font-size: 12px;
 }
 #tecnicomara{
     position: absolute;
-    left: 350px;
-    font-size: 10;
+    left: 530px;
+    font-size: 12;
 }
 #fotosmara{
     position: absolute;
@@ -159,37 +151,37 @@
 }
 #ingresomara{
     position: absolute;
-    left: 490px;
-    font-size: 10;
+    left: 650px;
+    font-size: 12;
 }
 #umara{
     position: absolute;
-    left: 560px;
-    font-size: 10;
+    left: 820px;
+    font-size: 12;
 }
 #fotoshara{
     position: absolute;
-    top: 180px;
+    top: 200px;
 }
 #basicahara{
     position: absolute;
-    left:240px;
-    font-size: 10;
+    left:290px;
+    font-size: 12;
 }
 #mediahara{
     position: absolute;
-    left: 330px;
-    font-size: 10px;
+    left: 550px;
+    font-size: 12px;
 }
 #tecnicohara{
     position: absolute;
-    left: 430px;
-    font-size: 10;
+    left: 900px;
+    font-size: 12;
 }
 #uhara{
     position: absolute;
-    left: 630px;
-    font-size: 10;
+    left: 1050px;
+    font-size: 12;
 }
 #hombresara{
     position: absolute;
