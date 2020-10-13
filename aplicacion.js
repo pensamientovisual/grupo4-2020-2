@@ -131,4 +131,11 @@ $(document).ready(function(){
             r13_gas_d = true;
         }
     });
+    // no actualizada no trabajar antes de descargar
+    $(".regiones").click(function(){
+        if ($(this) == "#r09") {
+            $("#hola").text("region 9")   
+        }
+        
+    });
 });
