@@ -56,13 +56,8 @@
 }
 #mediam{
     position: absolute;
-<<<<<<< HEAD
     left: 300px;
     font-size: 10px;
-=======
-    left: 200px;
-    font-size: 12px;
->>>>>>> 1f8251ccfd170cf1a0f23ea0a3ea4a8d3f28812f
 }
 #tecnicom{
     position: absolute;
@@ -71,8 +66,7 @@
 }
 #fotosm{
     position: absolute;
-    top: 150px;
-    left:50px
+    top: 80px;
 }
 
 #mujeres{
