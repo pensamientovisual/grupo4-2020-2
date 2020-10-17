@@ -69,13 +69,13 @@ html, body{
     left: 130px;
     width: 600px;
     height: 400px;
-    border: 3px solid #220ce9;
+    /* border: 3px solid #220ce9; */
   }
   #datos_1_i {
-    border: 9px solid #1fe90c;
+    /* border: 9px solid #1fe90c; */
   }
 
-  .escondide {
+  .escondido_d {
     position: absolute;
     top: 155px;
     right: 200px;
@@ -83,6 +83,7 @@ html, body{
     height: 400px;
     /* border: 3px solid #15b3cf; */
   }
+  /* estos dos botones no estan siendo llamados */
   #boton_gas{
     position: absolute;
     top: 0px;
@@ -93,50 +94,39 @@ html, body{
     top: 0px;
     left: 100px;
   }
-  .info{
+  
+  .info_i{
     position: absolute;
-    top: -300px;
-    right: 100px;
+    top: 00px;
+    /* right: 00px; */
+    width: 200px;
+    left: 200px;
+    border: 3px solid #cf9415;
   }
 
-  #img_cont9{
+  .texto_gases{
     position: absolute;
-    top: 150px;
-    left:50px
-}
+    top: 0px; 
+    left:50px 
+  }
 
-  #text_cont9{
+  .industria{
     position: absolute;
-}
-
-  #mina{
-    position: absolute;
-    left: 200px;
-    top: 100px;
+    left: 100px;
+    top: 200px;
     font-size: 20px;
+    /* border: 3px solid #d8411b; */
 }
 
-  #nubon9{
+  .nubes{
     position: absolute;
     left:450px;
     top:95px;
     width: 135px;
-    height: 175px;
-    
+    height: 175px; 
+    /* border: 9px solid #1fe90c; */
 }
-
-  #igual9{
-    position: absolute;
-    left:-85px;
-    top:20px;
-    width: 50px;
-    height: 35px;
-    font-size: 40px;
-    *border: 3px solid #220ce9;
-}
-    
-
-
+/* creo que todas las cosas bajo este punto estan mal */
   #img_cont13{
     position: absolute;
     top: 150px;

@@ -514,7 +514,8 @@
                 </g>  
                 </svg>
                 <div id="datos_1_i" class="escondido_i">
-                    <button id="boton_ingresos_1">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_1_i">
                         <img src="ingresopromedio.JPG"height="70" />
                     </button>
                     <button id="boton_gas_1_i">
@@ -529,172 +530,509 @@
                         </div>
                     </div>  
                     <div id="emisiones_1_i"  class="info_i">
-                        <p>inforacion relevante</p>
-                        <div id="tarapaca">
+                        <div class="texto_gases">   
                             <strong>Emisiones por Fuentes Puntuales</strong> <br/>
                             TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
                         </div>
+                        <div class="industria">
+                            <button id="boton_industria_1_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_1_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
                     </div>
                 </div>
-                <div id="ingre_9" class="escondido_i">
-                    <button id="boton_ingresos_9">
+                <div id="datos_2_i" class="escondido_i">
+                    <button id="boton_ingresos_2_i">
                         <img src="ingresopromedio.JPG"height="70" />
                     </button>
-                    <button id="boton_gas_9">
+                    <button id="boton_gas_2_i">
                         <img src="nubon_nuevo.jpg"height="70" />
                     </button>
-                    <p>este es el culpable</p>
-                    <div id="todotarapaca" class="info_9">
+                    <div id="ingresos_2_i" class="info_i">
                         <div id="tarapaca">
                             <p>
                                 <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
                                 TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
                             </p>
                         </div>
-                        <div id="fotosm">
-                            <p id= "mujeres">
-                                MUJERES
+                    </div> 
+                    <div id="emisiones_2_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_2_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_2_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_3_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_3_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_3_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_3_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                Región: III<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
                             </p>
-                            <div id= "mediam">
-                                <img src="gorrorojo.JPG" height="25">
-                                <p>359.316</p>
-                            </div>
-                            <div id = "basicam">
-                                <img src="abcrojo.JPG" height="25">
-                                <p>216.845</p>
-                            </div>
-                            <div id="tecnicom">
-                                <img src="tecnicorojo.JPG" height="25">
-                                <p>520.812</p>
-                            </div>
-                            <div id="ingresom">
-                                <img src="ingresopromedio.JPG" height="25">
-                                <p>625.448</p>
-                            </div>
-                            <div id= "um">
-                                <img src="unegro.JPG" height="25">
-                                <p>774.327</p>
-                            </div>
-                        </div>
-                        <div id="linea">
-                            <svg width="100%" height="40">
-                                <g class="eje">
-                            </svg>
-                            <style>
-                                .eje {
-                                fill: none;
-                                }
-                            </style>
-                            <script>
-                                var scale = d3.scaleLinear()
-                                    .domain([100000, 1000000])
-                                    .range([0, 600]);
-                                var axis = d3.axisBottom(scale)
-                                d3.select('.eje')  
-                                    .attr("transform", "translate(40, 0)")
-                                    .call(axis);  
-                            </script>
-                        </div>
-                        
-                        <div id="fotosh">
-                            <p id= "hombres">
-                                HOMBRES
-                            </p>
-                            <div id="basicah">
-                                <img src="abcrojo.JPG" height="25">
-                                <p>352.465</p>
-                            </div>
-                            <div id="mediah">
-                                <img src="gorrorojo.JPG" height="25">
-                                <p>546.924</p>
-                            </div>
-                            <div id="ingresom">
-                                <img src="ingresopromedio.JPG" height="25">
-                                <p>625.448</p>
-                            </div>
-                            <div id="tecnicoh">
-                                <img src="tecniconegro.JPG" height="25">
-                                <p>803.793</p>
-                            </div>
-                            <div id= "uh">
-                                <img src="unegro.JPG" height="25">
-                                <p>951.564</p>
-                            </div>
-                        </div>
-                        <div id="leyenda">
-                            <div id="textos_l">
-                                <p>LEYENDA</p>
-                                <p>Cada ícono representa el nivel máximo de educación</p>
-                                <p><FONT COLOR="red">Rojo: el ingreso es menor que el gasto promedio </FONT></p> 
-                                <p><FONT> Negro: el ingreso es mayor que el gasto promedio </FONT></p>
-                            </div>
-                            <div id="l_fotos">
-                                <div id="l_gasto">
-                                    <img src="ingresopromedio.JPG" height="25">
-                                    <p>Gasto promedio</p>
-                                </div>
-                                <div id="l_basica_negro">
-                                    <img src="abcnegro.JPG" height="25">
-                                    <p>Enseñanza básica</p>
-                                </div>
-                                <div id="l_media_negro">
-                                    <img src="gorronegro.JPG" height="25">
-                                    <p>Enseñanza media</p>
-                                </div>
-                                <div id="l_tecnico_negro">
-                                    <img src="tecniconegro.JPG" height="25">
-                                    <p>Educación técnica</p>
-                                </div>
-                                <div id="l_u_negro">
-                                    <img src="unegro.JPG" height="25">
-                                    <p>Universitaria</p>
-                                </div>
-                            </div>       
                         </div>
                     </div>  
-                    <div id="tarapaca_gas"  class="info_9">
-                        <p>inforacion relevante</p>
-                        <div id="cont9">
-                            <div id="tarapaca">
-                                <strong>Emisiones por Fuentes Puntuales</strong> <br/>
-                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
-                            </div>
-                            <div id="img_cont9">
-                                <p id= "text_cont9">
-                                    CONTAMINACIÓN EN I
-                                <div id= "mina">
-                                    <button id="botonmina">
-                                        <img src="mina_nuevo.jpg" height="75"/>
-                                    </button>    
-                                    <p>
-                                        969,693 [Tons de CO<sub>2</sub>]
-                                    </p>
-                                </div>
-                                <div id="nubon9" class="escondido_i">
-                                    <div id="igual9">
-                                        =
-                                    </div>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <img src="nubon_nuevo.jpg" height="50"/>
-                                    <div id="leyes13">
-                                        (cada_nube_representa_100[Tons])
-                                    </div>
-                                </div>
-                            </div>
+                    <div id="emisiones_3_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_3_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_3_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
                         </div>
                     </div>
                 </div>
-                <div id="ingre13" class="escondido_i">
-                    <p > ejereje</p>
-                    <img src="BANDERA.png" width="35px" >
+                <div id="datos_4_i" class="escondido_i">
+                    <button id="boton_ingresos_4_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_4_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_4_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_4_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_4_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_4_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_5_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_5_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_5_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_5_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_5_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_5_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_5_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
                 </div>
+                <div id="datos_6_i" class="escondido_i">
+                    <button id="boton_ingresos_6_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_6_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_6_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_6_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_6_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_6_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_7_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_7_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_7_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_7_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                Región: III<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_7_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_7_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_7_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="datos_8_i" class="escondido_i">
+                    <button id="boton_ingresos_8_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_8_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_8_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_8_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_8_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_8_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_9_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_9_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_9_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_9_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_9_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_9_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_9_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="datos_10_i" class="escondido_i">
+                    <button id="boton_ingresos_10_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_10_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_10_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_10_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_10_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_10_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_11_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_11_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_11_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_11_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                Región: III<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_11_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_11_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_11_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="datos_12_i" class="escondido_i">
+                    <button id="boton_ingresos_12_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_12_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_12_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_12_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_12_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_12_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_13_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_13_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_13_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_13_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_13_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_13_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_13_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="datos_14_i" class="escondido_i">
+                    <button id="boton_ingresos_14_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_14_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_14_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_14_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_14_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_14_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
+                <div id="datos_15_i" class="escondido_i">
+                    <!-- aca se le podria poner un titulo o instruccion -->
+                    <button id="boton_ingresos_15_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_15_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_15_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                Región: III<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>  
+                    <div id="emisiones_15_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_15_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_15_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="datos_16_i" class="escondido_i">
+                    <button id="boton_ingresos_16_i">
+                        <img src="ingresopromedio.JPG"height="70" />
+                    </button>
+                    <button id="boton_gas_16_i">
+                        <img src="nubon_nuevo.jpg"height="70" />
+                    </button>
+                    <div id="ingresos_16_i" class="info_i">
+                        <div id="tarapaca">
+                            <p>
+                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
+                                TARAPACÁ Región: I<br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                            </p>
+                        </div>
+                    </div> 
+                    <div id="emisiones_16_i"  class="info_i">
+                        <div class="texto_gases">   
+                            <strong>Emisiones por Fuentes Puntuales</strong> <br/>
+                            Antofa Región II: <br/>Población: 330.558 Tamaño: 42.225,8 km<sup>2</sup>
+                        </div>
+                        <div class="industria">
+                            <button id="boton_industria_16_i">
+                                <img src="mina_nuevo.jpg" height="75"/>
+                            </button>    
+                            <p>969,693 [Tons de CO<sub>2</sub>]</p>
+                        </div>
+                        <div id="nubes_16_i" class="nubes">
+                            <p>esta funcionando</p>
+                            <img src="nubon_nuevo.jpg" height="50"/>
+                        </div> 
+                    </div>
+                </div> 
             </div>
             <!-- mapa2 -->
             <div id="derecha" >
@@ -1199,154 +1537,6 @@
                 </svg>
                 <div id="ingre9_d" class="escondide">
                     <p > esto que lees es muy interesante</p>
-                </div>
-                <div id="ingre13_d" class="escondide">
-                    <div>
-                        <button id="boton_ingresos">
-                            <img src="ingresopromedio.JPG"height="70" />
-                        </button>
-                        <button id="boton_gas">
-                            <img src="nubon_nuevo.jpg"height="70" />
-                        </button>
-                        <div id="todoaraucania" class="info">
-                            <div id="araucania">
-                                <strong>Máximo nivel educativo v/s Ingreso Promedio</strong> <br/> 
-                                ARAUCANÍA Región: IX<br/>Población: 957.224 Tamaño: 31.842 km<sup>2</sup>
-                            </div>
-                            <div id="fotosmara">
-                                <p id= "mujeresara">
-                                    MUJERES
-                                </p>
-                                <div id= "mediamara">
-                                    <img src="gorrorojo.JPG" height="25">
-                                    <p>299.746</p>
-                                </div>
-                                <div id = "basicamara">
-                                    <img src="abcrojo.JPG" height="25">
-                                    <p>196.720</p>
-                                </div>
-                                <div id="tecnicomara">
-                                    <img src="tecnicorojo.JPG" height="25">
-                                    <p>415.312</p>
-                                </div>
-                                <div id="ingresomara">
-                                    <img src="ingresopromedio.JPG" height="25">
-                                    <p>657.647</p>
-                                </div>
-                                <div id= "umara">
-                                    <img src="unegro.JPG" height="25">
-                                    <p>761.316</p>
-                                </div>
-                            </div>
-                            <div id="lineaara">
-                                <svg width="100%" height="40">
-                                    <g class="eje2">
-                                </svg>
-                                <style>
-                                    .eje2 {
-                                    fill: none;
-                                    }
-                                </style>
-                                <script>
-                                    var scale = d3.scaleLinear()
-                                        .domain([100000, 1000000])
-                                        .range([0, 600]);
-                                    var axis = d3.axisBottom(scale)
-                                    d3.select('.eje2')  
-                                        .attr("transform", "translate(40, 0)")
-                                        .call(axis);  
-                                </script>
-                            </div>
-                            
-                            <div id="fotoshara">
-                                <p id= "hombresara">
-                                    HOMBRES
-                                </p>
-                                <div id="basicahara">
-                                    <img src="abcrojo.JPG" height="25">
-                                    <p>291.733</p>
-                                </div>
-                                <div id="mediahara">
-                                    <img src="gorrorojo.JPG" height="25">
-                                    <p>408.866</p>
-                                </div>
-                                <div id="ingresomara">
-                                    <img src="ingresopromedio.JPG" height="25">
-                                    <p>657.647</p>
-                                </div>
-                                <div id="tecnicohara">
-                                    <img src="tecnicorojo.JPG" height="25">
-                                    <p>587.653</p>
-                                </div>
-                                <div id= "uhara">
-                                    <img src="unegro.JPG" height="25">
-                                    <p>866.796</p>
-                                </div>
-                            </div>
-                            <div id="leyenda">
-                                <div id="textos_l">
-                                    <p>LEYENDA</p>
-                                    <p>Cada ícono representa el nivel máximo de educación</p>
-                                    <p><FONT COLOR="red">Rojo: el ingreso es menor que el gasto promedio </FONT></p> 
-                                    <p><FONT> Negro: el ingreso es mayor que el gasto promedio </FONT></p>
-                                </div>
-                                <div id="l_fotos">
-                                    <div id="l_gasto">
-                                        <img src="ingresopromedio.JPG" height="25">
-                                        <p>Gasto promedio</p>
-                                    </div>
-                                    <div id="l_basica_negro">
-                                        <img src="abcnegro.JPG" height="25">
-                                        <p>Enseñanza básica</p>
-                                    </div>
-                                    <div id="l_media_negro">
-                                        <img src="gorronegro.JPG" height="25">
-                                        <p>Enseñanza media</p>
-                                    </div>
-                                    <div id="l_tecnico_negro">
-                                        <img src="tecniconegro.JPG" height="25">
-                                        <p>Educación técnica</p>
-                                    </div>
-                                    <div id="l_u_negro">
-                                        <img src="unegro.JPG" height="25">
-                                        <p>Universitaria</p>
-                                    </div>
-                                </div>       
-                            </div>
-                        <!-- </div> -->
-                        </div>
-                        <div id="araucania_gas"  class="info">
-                            <p>inforacion relevante</p>
-                            <div id="cont13">
-                                <div id="araucania">
-                                    <strong>Emisiones por Fuentes Puntuales</strong> <br/> 
-                                    ARAUCANÍA Región: IX<br/>Población: 957.224 Tamaño: 31.842 km<sup>2</sup>
-                                </div>
-                                <div id="img_cont13">
-                                    <p id= "text_cont13">
-                                        CONTAMINACIÓN EN IX
-                                    </p>
-                                    <div id= "casa">
-                                        <button id="botoncasa">
-                                            <img src="casachime.jpg" height="75"/>
-                                        </button>    
-                                        <p>281,789 [Tons de CO<sub>2</sub>]</p>
-                                    </div>
-                                    <div id="nubon13" class="escondide">
-                                        <div id="igual13">
-                                            =
-                                        </div>
-                                        <img src="nubon_nuevo.jpg" height="50"/>
-                                        <img src="nubon_nuevo.jpg" height="50"/>
-                                        <img src="nubon_nuevo.jpg" height="50"/>
-                                        <div id="leyes13">
-                                            (cada_nube_representa 100[Tons])
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

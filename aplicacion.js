@@ -23,681 +23,124 @@ $(document).ready(function(){
     var nombre_r14 = "Región de Los Ríos";
     var nombre_r15 = "Arica y Parinacota";
     var nombre_r16 = "Región de Ñuble";
-// nombre region izquierda
-    $("#r1_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r1)
-    });
-    $("#r1_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r2_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r2)
-    });
-    $("#r2_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r3_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r3)
-    });
-    $("#r3_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r4_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r4)
-    });
-    $("#r4_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r5_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r5)
-    });
-    $("#r5_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r6_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r6)
-    });
-    $("#r6_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r7_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r7)
-    });
-    $("#r7_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r8_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r8)
-    });
-    $("#r8_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r9_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r9)
-    });
-    $("#r9_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r10_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r10)
-    });
-    $("#r10_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r11_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r11)
-    });
-    $("#r11_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r12_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r12)
-    });
-    $("#r12_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r13_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r13)
-    });
-    $("#r13_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r14_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r14)
-    });
-    $("#r14_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r15_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r15)
-    });
-    $("#r15_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-    $("#r16_i").mouseenter(function(){
-        $("#nombre_region_i").text(nombre_r16)
-    });
-    $("#r16_i").mouseleave(function(){
-        $("#nombre_region_i").text("Selecciona una región")
-    });
-// nombre region derecha
+    //    intento de funcion
+    function pasar_mouse(region, hola, nombre ) {
+        region.mouseenter(function(){
+            hola.text(nombre)
+        });
+        region.mouseleave(function(){
+            hola.text("Selecciona una región")
+        });
+    }
+    pasar_mouse($("#r1_i"), $("#nombre_region_i"), nombre_r1);
+    pasar_mouse($("#r2_i"), $("#nombre_region_i"), nombre_r2);
+    pasar_mouse($("#r3_i"), $("#nombre_region_i"), nombre_r3);
+    pasar_mouse($("#r4_i"), $("#nombre_region_i"), nombre_r4);
+    pasar_mouse($("#r5_i"), $("#nombre_region_i"), nombre_r5);
+    pasar_mouse($("#r6_i"), $("#nombre_region_i"), nombre_r6);
+    pasar_mouse($("#r7_i"), $("#nombre_region_i"), nombre_r7);
+    pasar_mouse($("#r8_i"), $("#nombre_region_i"), nombre_r8);
+    pasar_mouse($("#r9_i"), $("#nombre_region_i"), nombre_r9);
+    pasar_mouse($("#r10_i"), $("#nombre_region_i"), nombre_r10);
+    pasar_mouse($("#r11_i"), $("#nombre_region_i"), nombre_r11);
+    pasar_mouse($("#r12_i"), $("#nombre_region_i"), nombre_r12);
+    pasar_mouse($("#r13_i"), $("#nombre_region_i"), nombre_r13);
+    pasar_mouse($("#r14_i"), $("#nombre_region_i"), nombre_r14);
+    pasar_mouse($("#r15_i"), $("#nombre_region_i"), nombre_r15);
+    pasar_mouse($("#r16_i"), $("#nombre_region_i"), nombre_r16);
 
-    $("#r1_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r1)
-    });
-    $("#r1_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r2_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r2)
-    });
-    $("#r2_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r3_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r3)
-    });
-    $("#r3_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r4_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r4)
-    });
-    $("#r4_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r5_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r5)
-    });
-    $("#r5_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r6_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r6)
-    });
-    $("#r6_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r7_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r7)
-    });
-    $("#r7_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r8_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r8)
-    });
-    $("#r8_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r9_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r9)
-    });
-    $("#r9_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r10_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r10)
-    });
-    $("#r10_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r11_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r11)
-    });
-    $("#r11_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r12_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r12)
-    });
-    $("#r12_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r13_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r13)
-    });
-    $("#r13_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r14_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r14)
-    });
-    $("#r14_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r15_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r15)
-    });
-    $("#r15_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    $("#r16_d").mouseenter(function(){
-        $("#nombre_region_d").text(nombre_r16)
-    });
-    $("#r16_d").mouseleave(function(){
-        $("#nombre_region_d").text("Selecciona una región")
-    });
-    // seccion mostrar informacion
-    var data_1 = true;
-    var ing_1_i = true;
-    var nubon_1= true;
-
-    $("#datos_1_i").hide();
-    $("#r1_i").click(function(){
-        if (data_1 == true) {
-            data_1 = false;
-            $(".escondido_i").hide();
-            $("#datos_1_i").show();    
-        }
-        else {
-            $("#datos_1_i").hide();
-            data_1 = true;
-        }
-    });
+    pasar_mouse($("#r1_d"), $("#nombre_region_d"), nombre_r1);
+    pasar_mouse($("#r2_d"), $("#nombre_region_d"), nombre_r2);
+    pasar_mouse($("#r3_d"), $("#nombre_region_d"), nombre_r3);
+    pasar_mouse($("#r4_d"), $("#nombre_region_d"), nombre_r4);
+    pasar_mouse($("#r5_d"), $("#nombre_region_d"), nombre_r5);
+    pasar_mouse($("#r6_d"), $("#nombre_region_d"), nombre_r6);
+    pasar_mouse($("#r7_d"), $("#nombre_region_d"), nombre_r7);
+    pasar_mouse($("#r8_d"), $("#nombre_region_d"), nombre_r8);
+    pasar_mouse($("#r9_d"), $("#nombre_region_d"), nombre_r9);
+    pasar_mouse($("#r10_d"), $("#nombre_region_d"), nombre_r10);
+    pasar_mouse($("#r11_d"), $("#nombre_region_d"), nombre_r11);
+    pasar_mouse($("#r12_d"), $("#nombre_region_d"), nombre_r12);
+    pasar_mouse($("#r13_d"), $("#nombre_region_d"), nombre_r13);
+    pasar_mouse($("#r14_d"), $("#nombre_region_d"), nombre_r14);
+    pasar_mouse($("#r15_d"), $("#nombre_region_d"), nombre_r15);
+    pasar_mouse($("#r16_d"), $("#nombre_region_d"), nombre_r16);
     
-    $("#ingresos_1_i").hide();
-    $("#boton_ingresos_1").click(function(){
-       if (ing_1_i == true) {
-           ing_1_i = false;
-           $("#boton_ingresos_1").hide();
-           $(".info_i").hide();
-           $("#boton_gas_1_i").show();
-           $("#ingresos_1_i").show();    
-       }
-       else {
-           $("#ingresos_1_i").hide();
-           ing_1_i = true;
-       }
-   });
-
-   $("#emisiones_1_i").hide();
-   $("#boton_gas_1_i").click(function(){
-       if (nubon_1 == true) {
-           nubon_1 = false;
-           $("#boton_gas_1_i").hide();
-           $(".info_i").hide();
-           $("#boton_ingresos_1").show();
-           $("#emisiones_1_i").show(); 
-       }
-       else {
-           $("#emisiones_1_i").hide();
-           nubon_1 = true;
-       }
-   });
-// hasta aca
-
-    var ingre_9 = true;
-    $("#ingre9").hide();
-
-    $("#r9_i").click(function(){
-        if (ingre_9 == true) {
-            ingre_9 = false;
-            $(".escondido_i").hide();
-            $("#ingre9").show();    
-        }
-        else {
-            $("#ingre9").hide();
-            ingre_9 = true;
-        }
-    });
+    function botones(datos, region, escondido, boton_ingresos, boton_gas, info, ingresos, emisiones, nubes_x, boton_industria) {
+        var data = true;
+        var ing_1_i = true;
+        var gases= true;
+        var nubon= true;
+        datos.hide();
+        region.click(function(){
+            if (data == true) {
+                data = false;
+                escondido.hide();
+                datos.show();    
+            }
+            else {
+                datos.hide();
+                data = true;
+            }
+        });
+        ingresos.hide();
+        boton_ingresos.click(function(){
+           if (ing_1_i == true) {
+               ing_1_i = false;
+               boton_ingresos.hide();
+               info.hide();
+               boton_gas.show();
+               ingresos.show();    
+           }
+           else {
+               ingresos.hide();
+               ing_1_i = true;
+           }
+        });
+        emisiones.hide();
+        boton_gas.click(function(){
+           if (gases == true) {
+               gases = false;
+               boton_gas.hide();
+               info.hide();
+               boton_ingresos.show();
+               emisiones.show(); 
+           }
+           else {
+               emisiones.hide();
+               gases = true;
+           }
+        });  
+        nubes_x.hide();
+        boton_industria.click(function(){
+            if (nubon == true) {
+               nubon = false;
+               nubes_x.show();    
+            }
+            else {
+               nubes_x.hide();
+               nubon = true;
+            }
+        });  
+    }
+    // botones(datos, region, escondido, boton_ingresos, boton_gas, info, ingresos, emisiones, nubes_x, boton_industria, nubes_escondidas)
+    botones($("#datos_1_i"), $("#r1_i"), $(".escondido_i"), $("#boton_ingresos_1_i"), $("#boton_gas_1_i"), $(".info_i"), $("#ingresos_1_i"), $("#emisiones_1_i"), $("#nubes_1_i"), $("#boton_industria_1_i"))
+    botones($("#datos_2_i"), $("#r2_i"), $(".escondido_i"), $("#boton_ingresos_2_i"), $("#boton_gas_2_i"), $(".info_i"), $("#ingresos_2_i"), $("#emisiones_2_i"), $("#nubes_2_i"), $("#boton_industria_2_i"))
+    botones($("#datos_3_i"), $("#r3_i"), $(".escondido_i"), $("#boton_ingresos_3_i"), $("#boton_gas_3_i"), $(".info_i"), $("#ingresos_3_i"), $("#emisiones_3_i"), $("#nubes_3_i"), $("#boton_industria_3_i"))
+    botones($("#datos_4_i"), $("#r4_i"), $(".escondido_i"), $("#boton_ingresos_4_i"), $("#boton_gas_4_i"), $(".info_i"), $("#ingresos_4_i"), $("#emisiones_4_i"), $("#nubes_4_i"), $("#boton_industria_4_i"))
+    botones($("#datos_5_i"), $("#r5_i"), $(".escondido_i"), $("#boton_ingresos_5_i"), $("#boton_gas_5_i"), $(".info_i"), $("#ingresos_5_i"), $("#emisiones_5_i"), $("#nubes_5_i"), $("#boton_industria_5_i"))
+    botones($("#datos_6_i"), $("#r6_i"), $(".escondido_i"), $("#boton_ingresos_6_i"), $("#boton_gas_6_i"), $(".info_i"), $("#ingresos_6_i"), $("#emisiones_6_i"), $("#nubes_6_i"), $("#boton_industria_6_i"))
+    botones($("#datos_7_i"), $("#r7_i"), $(".escondido_i"), $("#boton_ingresos_7_i"), $("#boton_gas_7_i"), $(".info_i"), $("#ingresos_7_i"), $("#emisiones_7_i"), $("#nubes_7_i"), $("#boton_industria_7_i"))
+    botones($("#datos_8_i"), $("#r8_i"), $(".escondido_i"), $("#boton_ingresos_8_i"), $("#boton_gas_8_i"), $(".info_i"), $("#ingresos_8_i"), $("#emisiones_8_i"), $("#nubes_8_i"), $("#boton_industria_8_i"))
+    botones($("#datos_9_i"), $("#r9_i"), $(".escondido_i"), $("#boton_ingresos_9_i"), $("#boton_gas_9_i"), $(".info_i"), $("#ingresos_9_i"), $("#emisiones_9_i"), $("#nubes_9_i"), $("#boton_industria_9_i"))
+    botones($("#datos_10_i"), $("#r10_i"), $(".escondido_i"), $("#boton_ingresos_10_i"), $("#boton_gas_10_i"), $(".info_i"), $("#ingresos_10_i"), $("#emisiones_10_i"), $("#nubes_10_i"), $("#boton_industria_10_i"))
+    botones($("#datos_11_i"), $("#r11_i"), $(".escondido_i"), $("#boton_ingresos_11_i"), $("#boton_gas_11_i"), $(".info_i"), $("#ingresos_11_i"), $("#emisiones_11_i"), $("#nubes_11_i"), $("#boton_industria_11_i"))
+    botones($("#datos_12_i"), $("#r12_i"), $(".escondido_i"), $("#boton_ingresos_12_i"), $("#boton_gas_12_i"), $(".info_i"), $("#ingresos_12_i"), $("#emisiones_12_i"), $("#nubes_12_i"), $("#boton_industria_12_i"))
+    botones($("#datos_13_i"), $("#r13_i"), $(".escondido_i"), $("#boton_ingresos_13_i"), $("#boton_gas_13_i"), $(".info_i"), $("#ingresos_13_i"), $("#emisiones_13_i"), $("#nubes_13_i"), $("#boton_industria_13_i"))
+    botones($("#datos_14_i"), $("#r14_i"), $(".escondido_i"), $("#boton_ingresos_14_i"), $("#boton_gas_14_i"), $(".info_i"), $("#ingresos_14_i"), $("#emisiones_14_i"), $("#nubes_14_i"), $("#boton_industria_14_i"))
+    botones($("#datos_15_i"), $("#r15_i"), $(".escondido_i"), $("#boton_ingresos_15_i"), $("#boton_gas_15_i"), $(".info_i"), $("#ingresos_15_i"), $("#emisiones_15_i"), $("#nubes_15_i"), $("#boton_industria_15_i"))
+    botones($("#datos_16_i"), $("#r16_i"), $(".escondido_i"), $("#boton_ingresos_16_i"), $("#boton_gas_16_i"), $(".info_i"), $("#ingresos_16_i"), $("#emisiones_16_i"), $("#nubes_16_i"), $("#boton_industria_16_i"))
     
-    var cont_9 = true;
-    $("#cont9").hide();
-
-   $("#r9_i").click(function(){
-       if (cont_9 == true) {
-           cont_9 = false;
-           $(".info_9").hide();
-           $("#cont9").show();    
-       }
-       else {
-           $("#cont9").hide();
-           cont_9 = true;
-       }
-   });
-
-   var nubon_1= true;
-   $("#nubon9").hide();
-
-   $("#cont9").click(function(){
-       if (nubon_1 == true) {
-           nubon_1 = false;
-           $(".escondido").hide();
-           $("#nubon9").show();    
-       }
-       else {
-           $("#nubon9").hide();
-           nubon_1 = true;
-       }
-   });
-
-
-
-
-    var r13_i = true;
-    $("#ingre13").hide();
-
-    $("#r13").click(function(){
-        if (r13_i == true) {
-            r13_i = false;
-            $(".o_i").hide(); 
-            $("#ingre13").show();  
-        }
-        else {
-            $("#ingre13").hide();
-            r13_i = true;
-        }
-    });
-
-   // var cont_13 = true;
-   // $("#cont13").hide();
-
-    $("#r13").click(function(){
-        if (cont_13 == true) {
-            cont_13 = false;
-            $(".info").hide();
-            $("#cont13").show();    
-        }
-        else {
-            $("#cont13").hide();
-            cont_13 = true;
-        }
-    });
-
-    var nubon_13= true;
-    $("#nubon13").hide();
-
-    $("#cont13").click(function(){
-        if (nubon_13 == true) {
-            nubon_13 = false;
-            $(".escondido").hide();
-            $("#nubon13").show();    
-        }
-        else {
-            $("#nubon13").hide();
-            nubon_13 = true;
-        }
-    });
-
-
-    // funciones derecha
-    // funciones r9
-    var ingre_9d = true;
-    $("#ingre9_d").hide();
-
-    $("#r9_d").click(function(){
-        if (ingre_9d == true) {
-            ingre_9d = false;
-            $(".escondide").hide();
-            $("#ingre9_d").show();    
-        }
-        else {
-            $("#ingre9_d").hide();
-            ingre_9d = true;
-        }
-    });
-
-    var r13_d = true;
-    $("#ingre13_d").hide();
-
-    $("#r13_d").click(function(){
-        if (r13_d == true) {
-            r13_d = false;
-            $(".escondide").hide();
-            $("#ingre13_d").show();    
-        }
-        else {
-            $("#ingre13_d").hide();
-            r13_d = true;
-        }
-    });
-    var r13_ing_d = true;
-    $("#todoaraucania").hide();
-
-    $("#boton_ingresos").click(function(){
-        if (r13_ing_d == true) {
-            r13_ing_d = false;
-            $("#boton_ingresos").hide();
-            $(".info").hide();
-            $("#boton_gas").show();
-            $("#todoaraucania").show();    
-        }
-        else {
-            $("#todoaraucania").hide();
-            r13_ing_d = true;
-        }
-    });
-    var r13_gas_d = true;
-    $("#araucania_gas").hide();
-
-    $("#boton_gas").click(function(){
-        if (r13_gas_d == true) {
-            r13_gas_d = false;
-            $("#boton_gas").hide();
-            $(".info").hide();
-            $("#boton_ingresos").show();
-            $("#araucania_gas").show();    
-        }
-        else {
-            $("#araucaniagas").hide();
-            r13_gas_d = true;
-        }
-    });
-    var r9_ing_d = true;
-    $("#todotarapaca").hide();
-
-    $("#boton_ingresos_9").click(function(){
-        if (r9_ing_d == true) {
-            r9_ing_d = false;
-            $("#boton_ingresos_9").hide();
-            $(".info_9").hide();
-            $("#boton_gas_9").show();
-            $("#todotarapaca").show();    
-        }
-        else {
-            $("#todotarapaca").hide();
-            r9_ing_d = true;
-        }
-    });
-    var r9_gas_d = true;
-    $("#tarapaca_gas").hide();
-
-    $("#boton_gas_9").click(function(){
-        if (r9_gas_d == true) {
-            r9_gas_d = false;
-            $("#boton_gas_9").hide();
-            $(".info_9").hide();
-            $("#boton_ingresos_9").show();
-            $("#tarapaca_gas").show();    
-        }
-        else {
-            $("#tarapaca_gas").hide();
-            r9_gas_d = true;
-        }
-    });
-    
-
-    // linea divisoria
 
 });
 
-
-
-
-
-
-// copia de seguridad de martin
-// $("#r9").mouseenter(function(){
-//     $("#hola").text("region VI")
-//     $(this).fadeTo("fast", 0.3)
-// });
-
-// $("#r9").mouseleave(function(){
-//     $("#hola").text("selecciona una region")
-//     $(this).fadeTo("fast",1)
-// });
-
-// var ingre_9 = true;
-// $("#ingre9").hide();
-
-// $("#r9").click(function(){
-//     if (ingre_9 == true) {
-//         ingre_9 = false;
-//         $(".escondidi").hide();
-//         $("#ingre9").show();    
-//     }
-//     else {
-//         $("#ingre9").hide();
-//         ingre_9 = true;
-//     }
-// });
-
-// var cont_9 = true;
-// $("#cont9").hide();
-
-// $("#r9").click(function(){
-//    if (cont_9 == true) {
-//        cont_9 = false;
-//        $(".info_9").hide();
-//        $("#cont9").show();    
-//    }
-//    else {
-//        $("#cont9").hide();
-//        cont_9 = true;
-//    }
-// });
-
-// var nubon_1= true;
-// $("#nubon9").hide();
-
-// $("#cont9").click(function(){
-//    if (nubon_1 == true) {
-//        nubon_1 = false;
-//        $(".escondido").hide();
-//        $("#nubon9").show();    
-//    }
-//    else {
-//        $("#nubon9").hide();
-//        nubon_1 = true;
-//    }
-// });
-
-
-
-// // region verfde
-// $("#r13").mouseenter(function(){
-//     $("#r13").fadeTo("fast", 0.3)
-//     $("#hola").text("region 9, Araucania")
-// });
-// $("#r13").mouseleave(function(){
-//     $("#r13").fadeTo("fast",1)
-//     $("#hola").text("selecciona una region")
-// });
-
-// var r13_i = true;
-// $("#ingre13").hide();
-
-// $("#r13").click(function(){
-//     if (r13_i == true) {
-//         r13_i = false;
-//         $(".escondidi").hide(); 
-//         $("#ingre13").show();  
-//     }
-//     else {
-//         $("#ingre13").hide();
-//         r13_i = true;
-//     }
-// });
-
-// // var cont_13 = true;
-// // $("#cont13").hide();
-
-// $("#r13").click(function(){
-//     if (cont_13 == true) {
-//         cont_13 = false;
-//         $(".info").hide();
-//         $("#cont13").show();    
-//     }
-//     else {
-//         $("#cont13").hide();
-//         cont_13 = true;
-//     }
-// });
-
-// var nubon_13= true;
-// $("#nubon13").hide();
-
-// $("#cont13").click(function(){
-//     if (nubon_13 == true) {
-//         nubon_13 = false;
-//         $(".escondido").hide();
-//         $("#nubon13").show();    
-//     }
-//     else {
-//         $("#nubon13").hide();
-//         nubon_13 = true;
-//     }
-// });
-
-
-// // funciones derecha
-// // funciones r9
-// $("#r9_d").mouseenter(function(){
-//     $("#hola2").text("region 9  poblacion")
-//     $(this).fadeTo("fast", 0.3)
-// });
-
-// $("#r9_d").mouseleave(function(){
-//     $("#hola2").text("selecciona una region")
-//     $(this).fadeTo("fast",1)
-// });
-
-// var ingre_9d = true;
-// $("#ingre9_d").hide();
-
-// $("#r9_d").click(function(){
-//     if (ingre_9d == true) {
-//         ingre_9d = false;
-//         $(".escondide").hide();
-//         $("#ingre9_d").show();    
-//     }
-//     else {
-//         $("#ingre9_d").hide();
-//         ingre_9d = true;
-//     }
-// });
-
-// // region verfde
-// $("#r13_d").mouseenter(function(){
-//     $("#r13_d").fadeTo("fast", 0.3)
-//     $("#hola2").text("region color verde  poblacion")
-// });
-// $("#r13_d").mouseleave(function(){
-//     $("#r13_d").fadeTo("fast",1)
-//     $("#hola2").text("Selecciona una region")
-// });
-
-// var r13_d = true;
-// $("#ingre13_d").hide();
-
-// $("#r13_d").click(function(){
-//     if (r13_d == true) {
-//         r13_d = false;
-//         $(".escondide").hide();
-//         $("#ingre13_d").show();    
-//     }
-//     else {
-//         $("#ingre13_d").hide();
-//         r13_d = true;
-//     }
-// });
-// var r13_ing_d = true;
-// $("#todoaraucania").hide();
-
-// $("#boton_ingresos").click(function(){
-//     if (r13_ing_d == true) {
-//         r13_ing_d = false;
-//         $("#boton_ingresos").hide();
-//         $(".info").hide();
-//         $("#boton_gas").show();
-//         $("#todoaraucania").show();    
-//     }
-//     else {
-//         $("#todoaraucania").hide();
-//         r13_ing_d = true;
-//     }
-// });
-// var r13_gas_d = true;
-// $("#araucania_gas").hide();
-
-// $("#boton_gas").click(function(){
-//     if (r13_gas_d == true) {
-//         r13_gas_d = false;
-//         $("#boton_gas").hide();
-//         $(".info").hide();
-//         $("#boton_ingresos").show();
-//         $("#araucania_gas").show();    
-//     }
-//     else {
-//         $("#araucaniagas").hide();
-//         r13_gas_d = true;
-//     }
-// });
-// var r9_ing_d = true;
-// $("#todotarapaca").hide();
-
-// $("#boton_ingresos_9").click(function(){
-//     if (r9_ing_d == true) {
-//         r9_ing_d = false;
-//         $("#boton_ingresos_9").hide();
-//         $(".info_9").hide();
-//         $("#boton_gas_9").show();
-//         $("#todotarapaca").show();    
-//     }
-//     else {
-//         $("#todotarapaca").hide();
-//         r9_ing_d = true;
-//     }
-// });
-// var r9_gas_d = true;
-// $("#tarapaca_gas").hide();
-
-// $("#boton_gas_9").click(function(){
-//     if (r9_gas_d == true) {
-//         r9_gas_d = false;
-//         $("#boton_gas_9").hide();
-//         $(".info_9").hide();
-//         $("#boton_ingresos_9").show();
-//         $("#tarapaca_gas").show();    
-//     }
-//     else {
-//         $("#tarapaca_gas").hide();
-//         r9_gas_d = true;
-//     }
-// });
-
-
-// // linea divisoria
-
-// });
