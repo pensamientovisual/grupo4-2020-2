@@ -141,6 +141,22 @@ $(document).ready(function(){
     botones($("#datos_15_i"), $("#r15_i"), $(".escondido_i"), $("#boton_ingresos_15_i"), $("#boton_gas_15_i"), $(".info_i"), $("#ingresos_15_i"), $("#emisiones_15_i"), $("#nubes_15_i"), $("#boton_industria_15_i"))
     botones($("#datos_16_i"), $("#r16_i"), $(".escondido_i"), $("#boton_ingresos_16_i"), $("#boton_gas_16_i"), $(".info_i"), $("#ingresos_16_i"), $("#emisiones_16_i"), $("#nubes_16_i"), $("#boton_industria_16_i"))
     
+    botones($("#datos_1_d"), $("#r1_d"), $(".escondido_d"), $("#boton_ingresos_1_d"), $("#boton_gas_1_d"), $(".info_d"), $("#ingresos_1_d"), $("#emisiones_1_d"), $("#nubes_1_d"), $("#boton_industria_1_d"))
+    botones($("#datos_2_d"), $("#r2_d"), $(".escondido_d"), $("#boton_ingresos_2_d"), $("#boton_gas_2_d"), $(".info_d"), $("#ingresos_2_d"), $("#emisiones_2_d"), $("#nubes_2_d"), $("#boton_industria_2_d"))
+    botones($("#datos_3_d"), $("#r3_d"), $(".escondido_d"), $("#boton_ingresos_3_d"), $("#boton_gas_3_d"), $(".info_d"), $("#ingresos_3_d"), $("#emisiones_3_d"), $("#nubes_3_d"), $("#boton_industria_3_d"))
+    botones($("#datos_4_d"), $("#r4_d"), $(".escondido_d"), $("#boton_ingresos_4_d"), $("#boton_gas_4_d"), $(".info_d"), $("#ingresos_4_d"), $("#emisiones_4_d"), $("#nubes_4_d"), $("#boton_industria_4_d"))
+    botones($("#datos_5_d"), $("#r5_d"), $(".escondido_d"), $("#boton_ingresos_5_d"), $("#boton_gas_5_d"), $(".info_d"), $("#ingresos_5_d"), $("#emisiones_5_d"), $("#nubes_5_d"), $("#boton_industria_5_d"))
+    botones($("#datos_6_d"), $("#r6_d"), $(".escondido_d"), $("#boton_ingresos_6_d"), $("#boton_gas_6_d"), $(".info_d"), $("#ingresos_6_d"), $("#emisiones_6_d"), $("#nubes_6_d"), $("#boton_industria_6_d"))
+    botones($("#datos_7_d"), $("#r7_d"), $(".escondido_d"), $("#boton_ingresos_7_d"), $("#boton_gas_7_d"), $(".info_d"), $("#ingresos_7_d"), $("#emisiones_7_d"), $("#nubes_7_d"), $("#boton_industria_7_d"))
+    botones($("#datos_8_d"), $("#r8_d"), $(".escondido_d"), $("#boton_ingresos_8_d"), $("#boton_gas_8_d"), $(".info_d"), $("#ingresos_8_d"), $("#emisiones_8_d"), $("#nubes_8_d"), $("#boton_industria_8_d"))
+    botones($("#datos_9_d"), $("#r9_d"), $(".escondido_d"), $("#boton_ingresos_9_d"), $("#boton_gas_9_d"), $(".info_d"), $("#ingresos_9_d"), $("#emisiones_9_d"), $("#nubes_9_d"), $("#boton_industria_9_d"))
+    botones($("#datos_10_d"), $("#r10_d"), $(".escondido_d"), $("#boton_ingresos_10_d"), $("#boton_gas_10_d"), $(".info_d"), $("#ingresos_10_d"), $("#emisiones_10_d"), $("#nubes_10_d"), $("#boton_industria_10_d"))
+    botones($("#datos_11_d"), $("#r11_d"), $(".escondido_d"), $("#boton_ingresos_11_d"), $("#boton_gas_11_d"), $(".info_d"), $("#ingresos_11_d"), $("#emisiones_11_d"), $("#nubes_11_d"), $("#boton_industria_11_d"))
+    botones($("#datos_12_d"), $("#r12_d"), $(".escondido_d"), $("#boton_ingresos_12_d"), $("#boton_gas_12_d"), $(".info_d"), $("#ingresos_12_d"), $("#emisiones_12_d"), $("#nubes_12_d"), $("#boton_industria_12_d"))
+    botones($("#datos_13_d"), $("#r13_d"), $(".escondido_d"), $("#boton_ingresos_13_d"), $("#boton_gas_13_d"), $(".info_d"), $("#ingresos_13_d"), $("#emisiones_13_d"), $("#nubes_13_d"), $("#boton_industria_13_d"))
+    botones($("#datos_14_d"), $("#r14_d"), $(".escondido_d"), $("#boton_ingresos_14_d"), $("#boton_gas_14_d"), $(".info_d"), $("#ingresos_14_d"), $("#emisiones_14_d"), $("#nubes_14_d"), $("#boton_industria_14_d"))
+    botones($("#datos_15_d"), $("#r15_d"), $(".escondido_d"), $("#boton_ingresos_15_d"), $("#boton_gas_15_d"), $(".info_d"), $("#ingresos_15_d"), $("#emisiones_15_d"), $("#nubes_15_d"), $("#boton_industria_15_d"))
+    botones($("#datos_16_d"), $("#r16_d"), $(".escondido_d"), $("#boton_ingresos_16_d"), $("#boton_gas_16_d"), $(".info_d"), $("#ingresos_16_d"), $("#emisiones_16_d"), $("#nubes_16_d"), $("#boton_industria_16_d"))
 
 });
 
