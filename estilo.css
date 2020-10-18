@@ -97,11 +97,29 @@ html, body{
   
   .info_i{
     position: absolute;
-    top: 00px;
     /* right: 00px; */
-    width: 200px;
-    left: 200px;
+    width: 900px;
     border: 3px solid #cf9415;
+    top: -50px;
+    height: 400px;
+    left: 150px;
+    align-content: center;
+
+  }
+
+  #foto_tarapaca{
+    position: absolute;
+    left: 1000px;
+  }
+
+  .titulo_ingresos{
+    text-align: center;
+  }
+  .fotos_izq{
+    position: absolute;
+    top: -120px;
+    left: -80px;
+
   }
 
   .texto_gases{
