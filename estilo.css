@@ -117,8 +117,8 @@ html, body{
   }
   .fotos_izq{
     position: absolute;
-    top: -120px;
-    left: -80px;
+    top: -200px;
+    left: -250px;
 
   }
 
@@ -148,18 +148,18 @@ html, body{
 .info_d{
   position: absolute;
   /* right: 00px; */
-  width: 900px;
-  border: 3px solid #362bd1;
-  top: 180px;
+  width: 1300px;
+  /*border: 3px solid #362bd1;*/
+  top: 270px;
   height: 1000px;
-  left: -690px;
+  left: -695px;
   align-content: center;
 
 }
 .leyenda{
   position: relative;
   left: -45px;
-  top: 60px;
+  top: 120px;
   
 }
 
@@ -191,6 +191,7 @@ html, body{
   position: relative;
   left: 450px;
 }
+
 
 /* /
 h2 {
