@@ -99,7 +99,7 @@ html, body{
     position: absolute;
     /* right: 00px; */
     width: 900px;
-    border: 3px solid #cf9415;
+    /*border: 3px solid #cf9415;*/
     top: -50px;
     height: 400px;
     left: 150px;
@@ -150,19 +150,46 @@ html, body{
   /* right: 00px; */
   width: 900px;
   border: 3px solid #362bd1;
-  top: -50px;
-  height: 400px;
-  left: 150px;
+  top: 180px;
+  height: 1000px;
+  left: -690px;
   align-content: center;
 
+}
+.leyenda{
+  position: relative;
+  left: -45px;
+  top: 60px;
+  
 }
 
 .fotos_der{
   position: absolute;
   top: -120px;
   left: -80px;
-  border: 3px solid #d1522b;
+  /*border: 3px solid #d1522b;*/
 
+}
+
+.escondido_i{
+  position: relative;
+  top: 60px;
+  left: 170px;
+}
+
+.escondido_d{
+  position: relative;
+  top: 20px;
+  left: 240px;
+}
+
+#nombre_region_i{
+  top: -10px;
+}
+
+#nombre_region_d{
+  position: relative;
+  left: 450px;
 }
 
 /* /
