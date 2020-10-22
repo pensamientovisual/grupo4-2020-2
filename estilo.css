@@ -34,7 +34,7 @@ html, body{
     left: 0px;
     width: 790;
     height: 600px;
-    /* border: 3px solid #73AD21; */
+    border: 3px solid #73AD21;
   }
   #mapa1 {
     position: absolute;
@@ -84,7 +84,7 @@ html, body{
     /* border: 3px solid #15b3cf; */
   }
   /* estos dos botones no estan siendo llamados */
-  #boton_gas{
+  /* #boton_gas{
     position: absolute;
     top: 0px;
     right: 100px;
@@ -93,32 +93,35 @@ html, body{
     position: absolute;
     top: 0px;
     left: 100px;
-  }
+    border: 3px solid #cf9415;
+  } */
   
   .info_i{
     position: absolute;
     /* right: 00px; */
     width: 900px;
-    /*border: 3px solid #cf9415;*/
-    top: -50px;
-    height: 400px;
+    border: 3px solid #cf9415;
+    top: 0px;
+    height: 100px;
     left: 150px;
     align-content: center;
 
   }
-
+/* Esta no se llama o si?
   #foto_tarapaca{
     position: absolute;
     left: 1000px;
-  }
+  } */
 
   .titulo_ingresos{
     text-align: center;
+    border: 3px solid #6d4b00;
   }
   .fotos_izq{
     position: absolute;
-    top: -200px;
-    left: -250px;
+    top: 20px;
+    left: -80px;
+    border: 3px solid #cf2b15;
 
   }
 
@@ -148,50 +151,22 @@ html, body{
 .info_d{
   position: absolute;
   /* right: 00px; */
-  width: 1300px;
-  /*border: 3px solid #362bd1;*/
-  top: 270px;
-  height: 1000px;
-  left: -695px;
+  width: 900px;
+  border: 3px solid #362bd1;
+  top: -50px;
+  height: 400px;
+  left: 150px;
   align-content: center;
 
-}
-.leyenda{
-  position: relative;
-  left: -45px;
-  top: 120px;
-  
 }
 
 .fotos_der{
   position: absolute;
   top: -120px;
   left: -80px;
-  /*border: 3px solid #d1522b;*/
+  border: 3px solid #d1522b;
 
 }
-
-.escondido_i{
-  position: relative;
-  top: 60px;
-  left: 170px;
-}
-
-.escondido_d{
-  position: relative;
-  top: 20px;
-  left: 240px;
-}
-
-#nombre_region_i{
-  top: -10px;
-}
-
-#nombre_region_d{
-  position: relative;
-  left: 450px;
-}
-
 
 /* /
 h2 {
