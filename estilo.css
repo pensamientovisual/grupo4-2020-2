@@ -1,10 +1,16 @@
 html, body{
     margin:0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(calle.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    position: absolute;
+    
   }
   #fondo{
-    background:#A1C181;
-    position: absolute;
     /* border: 3px solid #ad2121; */
     width: 200%;
     top: -20px;
@@ -101,7 +107,7 @@ html, body{
     /* right: 00px; */
     width: 900px;
     border: 3px solid #cf9415;
-    top: 0px;
+    top: -100px;
     height: 100px;
     left: 150px;
     align-content: center;
@@ -114,14 +120,17 @@ html, body{
   } */
 
   .titulo_ingresos{
+    position: relative;
     text-align: center;
     border: 3px solid #6d4b00;
+    top: -80px;
   }
   .fotos_izq{
     position: absolute;
-    top: 20px;
+    top: -20px;
     left: -80px;
-    border: 3px solid #cf2b15;
+    /*border: 3px solid #cf2b15;*/
+    width: 1000;
 
   }
 
@@ -153,19 +162,25 @@ html, body{
   /* right: 00px; */
   width: 900px;
   border: 3px solid #362bd1;
-  top: -50px;
+  top: 200px;
   height: 400px;
-  left: 150px;
+  left: -510px;
   align-content: center;
 
 }
 
 .fotos_der{
   position: absolute;
-  top: -120px;
-  left: -80px;
+  top: 300px;
   border: 3px solid #d1522b;
 
+}
+
+.leyenda{
+  position: absolute;
+  width: 1000;
+  top: 270px;
+  left: -80px;
 }
 
 /* /

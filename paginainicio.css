@@ -7,11 +7,25 @@ body{
 }
 #flecha{
     position: relative;
-    top: 700px;
+    top: 500px;
     left: 650px;
     background: transparent;
     border: transparent;
     height: 10px;
+}
+#titulo{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70;
+    font-weight: bolder;
+}
+#texto{
+    position: relative;
+    text-align: center;
+    top: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30;
     
-
 }
