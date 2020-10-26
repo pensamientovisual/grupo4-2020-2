@@ -55,8 +55,8 @@ html, body{
   #derecha{
     position: relative;
     top: -560px;
-    left: 770px;
-    width: 820px;
+    left: 800px;
+    width: 790px;
     height: 600px;
     /* border: 3px solid #ad4d21; */
   }
@@ -72,22 +72,12 @@ html, body{
 
   .escondido_i {
     position: absolute;
-    top: 150px;
-    left: 130px;
-    width: 400px;
-    height: 400px;
+    top: 135px;
+    left: 110px;
+    width: 175px;
+    height: 100px;
     /* border: 3px solid #220ce9; */
   }
- 
-  .escondido_d {
-    position: absolute;
-    top: 155px;
-    left: 370px;
-    width: 200px;
-    height: 100px;
-    /* border: 3px solid #15b3cf; */
-  }
-  /* 200+ 15 */
    
   .info_i{
     position: absolute;
@@ -103,38 +93,17 @@ html, body{
   .titulo_ingresos{
     position: relative;
     text-align: center;
-    /*border: 3px solid #6d4b00;*/
     top: -80px;
+    left: -50px;
   }
   .fotos_izq{
     position: absolute;
-    top: -20px;
-    left: -80px;
+    top: -10px;
+    left: -60px;
     /*border: 3px solid #cf2b15;*/
-    width: 890;
+    width: 850;
 
   }
-
-.info_d{
-  position: absolute;
-  /* right: 00px; */
-  width: 900px;
-  border: 3px solid #362bd1;
-  top: 160px;
-  height: 400px;
-  left: -360px;
-  /* align-content: center; */
-
-}
-
-.fotos_der{
-  position: absolute;
-  top: -25px;
-  left: -485px;
-  /* border: 3px solid #d1522b; */
-  width: 890;
-}
-/* top415 */
 
 .leyenda{
   position: absolute;
@@ -142,39 +111,39 @@ html, body{
   top: 240px;
   left: -485px;
 }
-.escondido_d_prueba {
+.escondido_d {
   position: absolute;
-  top: 140px;
-  left: 420px;
-  width: 150px;
+  top: 145px;
+  left: 365px;
+  width: 175px;
   height: 100px;
   /* border: 3px solid #15b3cf; */
 }
-.info_d_prueba{
+.info_d{
   position: absolute;
   /* right: 00px; */
-  width: 900px;
+  width: 300px;
   /* border: 3px solid #362bd1; */
   top: 160px;
   height: 400px;
-  left: -360px;
+  left: -335px;
   /* align-content: center; */
 
 }
 
-.fotos_der_prueba{
+.fotos_der{
   position: absolute;
-  top: -15px;
+  top: -35px;
   left: -530px;
   /* border: 3px solid #d1522b; */
-  width: 890;
+  width: 850;
 }
 /* top415 */
 
-.leyenda_prueba{
+.leyenda{
   position: absolute;
-  width: 890;
-  top: 240px;
+  width: 850;
+  top: 205px;
   left: -530px;
 }
 
@@ -205,80 +174,3 @@ html, body{
     top: 50px;
   }
 
-/* /
-h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Arial, Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
-}
-
-h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Arial, Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
-} */
-/* .escondido_i {
-  position: absolute;
-  top: 150px;
-  left: 130px;
-  width: 400px;
-  height: 400px;
-  /* border: 3px solid #220ce9; */
-/* }
-
-.escondido_d {
-  position: absolute;
-  top: 155px;
-  left: 185px;
-  width: 400px;
-  height: 400px;
-  border: 3px solid #15b3cf;
-}
- 
-.info_i{
-  position: absolute;
-  /* right: 00px; */
-  /* width: 900px; */
-  /* border: 3px solid #cf9415; */
-  /* top: -110px;
-  height: 100px;
-  left: 250px;
-  align-content: center;
-
-}
-.titulo_ingresos{
-  position: relative;
-  text-align: center;
-  /*border: 3px solid #6d4b00;*/
-  /* top: -80px;
-}
-.fotos_izq{
-  position: absolute;
-  top: -20px;
-  left: -80px;
-  /*border: 3px solid #cf2b15;*/
-  /* width: 890;
-
-}
-
-.info_d{
-position: absolute;
-/* right: 00px; */
-/* width: 900px; */
-/* border: 3px solid #362bd1; */
-/* top: 160px; */
-/* height: 400px; */
-/* left: -575px; */ */
-/* align-content: center; */ */
-
-/* } */ */
-
-/* .fotos_der{
-position: absolute;
-top: 200px; */
-/*border: 3px solid #d1522b;
-/* 
-}
-
-.leyenda{
-position: absolute;
-width: 890;
-top: 240px;
-left: -80px; 
-}  */

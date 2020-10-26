@@ -7,6 +7,20 @@ $(document).ready(function(){
         // $("#hola").text("selecciona una region")
         $(this).fadeTo("fast",1)
     });
+    $(".regiones").click(function(){
+        $(".regiones").css('fill', "#000000")
+        $(this).css('fill', "416190")
+    });
+    $(".regiones_d").mouseenter(function(){
+        $(this).fadeTo("fast", 0.3)
+    });
+    $(".regiones_d").mouseleave(function(){
+        $(this).fadeTo("fast",1)
+    });
+    $(".regiones_d").click(function(){
+        $(".regiones_d").css('fill', "#000000")
+        $(this).css('fill', "416190")
+    });
     var nombre_r1 = "Región de Tarapacá";
     var nombre_r2 = "Región de Antofagasta";
     var nombre_r3 = "Región de Atacama";
