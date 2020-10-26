@@ -90,6 +90,17 @@ html, body{
     align-content: center;
 
   }
+  .info2_i{
+    position: absolute;
+    /* right: 00px; */
+    width: 900px;
+    /* border: 3px solid #cf9415; */
+    top: -20px;
+    height: 100px;
+    left: 60px;
+    align-content: center;
+
+  }
   .titulo_ingresos{
     position: relative;
     text-align: center;
@@ -130,6 +141,17 @@ html, body{
   /* align-content: center; */
 
 }
+.info2_d{
+  position: absolute;
+  /* right: 00px; */
+  width: 300px;
+  /* border: 3px solid #362bd1; */
+  top: 160px;
+  height: 400px;
+  left: -335px;
+  /* align-content: center; */
+
+}
 
 .fotos_der{
   position: absolute;
@@ -149,8 +171,8 @@ html, body{
 
 .texto_gases{
   position: absolute;
-  top: 0px; 
-  left:50px 
+  top: 35px; 
+  left:70px 
 }
 
   .industria{
